@@ -13,6 +13,8 @@ jobs:
     steps:
     - name: Check out code
       uses: actions/checkout@v2
+      with:
+          fetch-depth: 0
 
     - name: Bump version
       id: bump_version
@@ -24,6 +26,7 @@ jobs:
     
      # SonarQube Scan
     - name: SonarQube Scan
+      
       uses: sonarsource/sonarqube-scan-action@master # replaces v1.2 with master
       with:
         projectBaseDir: build-push-to-gh
