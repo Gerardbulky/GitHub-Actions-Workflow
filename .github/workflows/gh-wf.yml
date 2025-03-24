@@ -25,7 +25,7 @@ jobs:
         echo "new_version=$new_version" >> $GITHUB_ENV
     
      # SonarQube Scanning
-    - name: SonarQube Scan
+    - name: SonarQube Scanning
       
       uses: sonarsource/sonarqube-scan-action@master # replaces v1.2 with master
       with:
