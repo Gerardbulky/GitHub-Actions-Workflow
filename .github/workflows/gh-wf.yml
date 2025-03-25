@@ -36,8 +36,8 @@ jobs:
 
     - name: Commit new version and updated WorkflowTemplate.yaml
       run: |
-        git config --global user.name 'sosotechnologies'
-        git config --global user.email 'sosotech2000@gmail.com'
+        git config --global user.name 'Gerardbulky'
+        git config --global user.email 'gerardambe@yahoo.com'
         git add VERSION-GH build-push-to-gh/WorkflowTemplate.yaml
         git commit -m "Bump version to ${{ env.new_version }}" || echo "No changes to commit"
         git stash
