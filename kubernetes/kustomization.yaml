@@ -4,5 +4,5 @@ resources:
   - deployment.yaml
 
 images:
-  - name: ghcr.io/sosotechnologies/node-app
+  - name: ghcr.io/gerardbulky/github-actions-workflow/node-app
     newTag:  # This will be updated in the pipeline

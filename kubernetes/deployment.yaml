@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: ghcr.io/sosotechnologies/node-app:latest
+          image: ghcr.io/gerardbulky/github-actions-workflow/node-app:latest
           ports:
             - containerPort: 8088

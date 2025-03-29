@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/sosotechnologies/githubwf-build-node-push-to-ecr'
+    repoURL: 'https://github.com/Gerardbulky/GitHub-Actions-Workflow/build-push-to-gh'
     targetRevision: main
     path: kubernetes
   destination:
